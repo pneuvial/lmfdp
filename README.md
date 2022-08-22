@@ -1,8 +1,8 @@
-# Confidence regions for the location of peaks of a smooth random field
+# FDP control in multivariate linear models using the bootstrap
+This repository provides code to resproduce the experiments and real data analyses of our recent paper on FDP control. 
 
 ## Table of contents
-* [Introduction](#introduction)
-* [Examples](#coverage)
+* [Examples](#examples)
 * [Real Data Examples](#realdata)
 * [Folder Structure](#folderstruct)
     * [CoverageFunctions](#covfns)
@@ -12,12 +12,12 @@
 
 ## Dependencies <a name="dependencies"></a>
 
-### RFTtoolbox <a name="rftbox"></a>
-In order to run most of this code you will need the RFTtoolbox package.  This can be downloaded at: https://github.com/sjdavenport/RFTtoolbox. This package is used to generate the simulations, perform RFT inference and perform general inference on local maxima.
-
-### MATLAB
-All code was run in matlab2019b.
+### pyrft <a name="rftbox"></a>
+In order to run some of this code you will need the pyrft python package.  This can be downloaded at: https://github.com/sjdavenport/pyrft. This package is used to bootstrap the data, perform FDP control and run simulations.
 
 ### export_fig
 Figures were printed to pdfs using the export_fig matlab package. This can be 
 downloaded at https://uk.mathworks.com/matlabcentral/fileexchange/23629-export_fig
+
+If you have any difficulties getting this code to run or have any questions
+feel free to get in touch with me at sdavenport(AT)ucsd.edu or via twitter [@BrainStatsSam](https://twitter.com/BrainStatsSam).
