@@ -6,16 +6,16 @@ Data and code to reproduce the figures for the gene expression data analysis:
 
 The  [Data](Data) directory contains data from Bahr, *et al.* (2013):
 
-- [](Data/GSE42057_Y.csv): gene expression data ($p=12531$ genes x $n=135$ patients)
-- [](Data/GSE42057_X.csv): covariate data ($n=135$ patients x $11$ covariates)
-- [](Data/GSE42057_import.R): R script to import the above data from the [GEO](https://www.ncbi.nlm.nih.gov/geo/) repository (Barrett T *et al.*, 2013).
-- [](Data/GSE42057_lm.R): R script to reproduce the analysis of Bahr, *et al.* (2013).
+- [GSE42057_Y.csv](Data/GSE42057_Y.csv): (12 Mb) gene expression data ($p=12531$ genes x $n=135$ patients)
+- [GSE42057_X.csv](Data/GSE42057_X.csv): covariate data ($n=135$ patients x $11$ covariates)
+- [GSE42057_import.R](Data/GSE42057_import.R): R script to import the above data from the [GEO](https://www.ncbi.nlm.nih.gov/geo/) repository (Barrett T *et al.*, 2013).
+- [GSE42057_lm.R](Data/GSE42057_lm.R): R script to reproduce the analysis of Bahr, *et al.* (2013).
 
 ## Code
 
-- [](Genetics_Data_analysis/genetic_analysis.py): python script to run the bootstrap method
-- [](Genetics_confidence_curves): python script to reproduce Figure 4
-- [](Volcano_plot/genetics_volcano_plot.R): R script to reproduce Figure 5
+- [genetic_analysis.py](Genetics_Data_analysis/genetic_analysis.py): python script to run the bootstrap method
+- [genetics_confidence_plot.py](Genetics_confidence_curves/genetics_confidence_plot.py): python script to reproduce Figure 4
+- [genetics_volcano_plot.R](Volcano_plot/genetics_volcano_plot.R): R script to reproduce Figure 5
 
 ## References
 
