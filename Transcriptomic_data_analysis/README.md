@@ -13,7 +13,7 @@ The  [Data](Data) directory contains data from Bahr, *et al.* (2013):
 
 ## Code
 
-- [genetic_analysis.py](Genetics_Data_analysis/genetic_analysis.py): python script to run the bootstrap method
+- [genetic_analysis.py](Genetics_data_analysis/genetic_analysis.py): python script to run the bootstrap method
 - [genetics_confidence_plot.py](Genetics_confidence_curves/genetics_confidence_plot.py): python script to reproduce Figure 4
 - [genetics_volcano_plot.R](Volcano_plot/genetics_volcano_plot.R): R script to reproduce Figure 5
 
