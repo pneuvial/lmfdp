@@ -39,5 +39,5 @@ X <- cbind(group = group,
 str(X)
 str(rownames(X))
 
-write.table(X, file = "GSE42057_X.csv", sep = ",", quote = FALSE)
-write.table(Y, file = "GSE42057_Y.csv", sep = ",")
+write.table(X, file = "Data/GSE42057_X.csv", sep = ",", quote = FALSE)
+write.table(round(Y, 4), file = "Data/GSE42057_Y.csv", sep = ",")
