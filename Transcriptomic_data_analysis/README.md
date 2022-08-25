@@ -1,6 +1,6 @@
 # Transcriptomic data analysis
 
-Data and code to reproduce the figures for the gene expression data analysis:
+Data and code to reproduce the figures for the gene expression data analysis
 
 ## Data
 
@@ -19,7 +19,8 @@ The  [Data](Data) directory contains data from Bahr, *et al.* (2013):
 
 ## References
 
-- Bahr, *et al.* "Peripheral blood mononuclear cell gene expression in chronic obstructive pulmonary disease." American journal of respiratory cell and molecular biology 49.2 (2013): 316-323. "Peripheral blood mononuclear cell gene expression in chronic obstructive pulmonary disease." American journal of respiratory cell and molecular biology 49.2 (2013): 316-323.
+- Bahr, *et al.* "Peripheral blood mononuclear cell gene expression in chronic obstructive pulmonary disease." American journal of respiratory cell and molecular biology 49.2 (2013): 316-323. "Peripheral blood mononuclear cell gene expression in chronic obstructive pulmonary disease." American journal of respiratory cell and molecular biology 49.2 (2013): 316-323. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3824029/
 
 -  Barrett T *et al.* NCBI GEO: archive for functional genomics data sets--update.
 Nucleic Acids Res. 2013 Jan;41(Database issue):D991-5.
+https://doi.org/10.1093/nar/gks1193
