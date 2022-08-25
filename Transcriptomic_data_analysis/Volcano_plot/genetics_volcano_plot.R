@@ -1,9 +1,9 @@
-a = read.table('Cbeta.csv')
-Cbeta = a$V1
-b = read.table('orig_pvalues.csv')
-orig_pvalues = b$V1
+a <- read.table('Volcano_plot/Cbeta.csv')
+Cbeta <- a$V1
+b <- read.table('Volcano_plot/orig_pvalues.csv')
+orig_pvalues <- b$V1
 
-# remotes::install_github("pneuvial/sanssouci")
+# remotes::install_github("sanssouci-org/sanssouci")
 library(sanssouci)
 alpha <- 0.1
 lambda <- 0.22 # Obtained from the bootstrap in python
@@ -11,7 +11,7 @@ lambda <- 0.22 # Obtained from the bootstrap in python
 n_genes <- length(orig_pvalues)
 thresholds <- sanssouci:::t_linear(lambda, 1:n_genes, n_genes)
 
-pdf("volcano_plot.pdf", width=8, height=5)
+pdf("Volcano_plot/volcano_plot.pdf", width=8, height=5)
 sanssouci:::volcanoPlot.numeric(x = Cbeta, 
                                 y = orig_pvalues,
                                 pval = orig_pvalues,
