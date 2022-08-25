@@ -4,7 +4,7 @@ Data and code to reproduce the figures for the gene expression data analysis:
 
 ## Data
 
-The  [](Data) directory contains data from Bahr, *et al.* (2013):
+The  [Data](Data) directory contains data from Bahr, *et al.* (2013):
 
 - [](Data/GSE42057_Y.csv): gene expression data ($p=12531$ genes x $n=135$ patients)
 - [](Data/GSE42057_X.csv): covariate data ($n=135$ patients x $11$ covariates)
@@ -16,7 +16,6 @@ The  [](Data) directory contains data from Bahr, *et al.* (2013):
 - [](Genetics_Data_analysis/genetic_analysis.py): python script to run the bootstrap method
 - [](Genetics_confidence_curves): python script to reproduce Figure 4
 - [](Volcano_plot/genetics_volcano_plot.R): R script to reproduce Figure 5
-
 
 ## References
 
